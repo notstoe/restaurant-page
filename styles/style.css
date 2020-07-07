@@ -1,0 +1,40 @@
+body {
+  background-color: rgb(29, 29, 29);
+  color: white;
+}
+
+/* TITLE */
+
+  #pageTitle {
+    margin: 3vw 0;
+    text-align: center;
+    font-size: 31px;
+  }
+
+/* HEADER */
+
+  .containerNavBar {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2vw;
+  }
+
+  .navBarElement {
+    display: block;
+    cursor: pointer;
+    padding: 1.2vw 4vw;
+  }
+
+  #home {
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: yellow;
+  }
+
+/* HOME TAB CONTENT */
+
+#carbonaraImg {
+  display: block;
+  margin: 3vw auto;
+  width: 500px;
+}
