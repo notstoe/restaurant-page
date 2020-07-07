@@ -1,6 +1,7 @@
 body {
   background-color: rgb(29, 29, 29);
   color: white;
+  font-family: 'Source Sans Pro', sans-serif;
 }
 
 /* TITLE */
@@ -9,6 +10,7 @@ body {
     margin: 3vw 0;
     text-align: center;
     font-size: 31px;
+    font-family: 'Sail', cursive;
   }
 
 /* HEADER */
@@ -16,7 +18,7 @@ body {
   .containerNavBar {
     display: flex;
     justify-content: center;
-    margin-bottom: 2vw;
+    margin-bottom: 2.7vw;
   }
 
   .navBarElement {
@@ -25,7 +27,7 @@ body {
     padding: 1.2vw 4vw;
   }
 
-  #home {
+  .activeTab {
     border-bottom: 1px;
     border-style: solid;
     border-color: yellow;
@@ -33,8 +35,26 @@ body {
 
 /* HOME TAB CONTENT */
 
-#carbonaraImg {
-  display: block;
-  margin: 3vw auto;
-  width: 500px;
-}
+  .homePageContent {
+    font-size: 1.47vw;
+    margin: 0 auto;
+    margin-bottom: 2vw;
+    width: 70%;
+  }
+
+  #carbonaraImg {
+    display: block;
+    margin: 4.5vw auto;
+    margin-top: 1.5vw;
+    width: 400px;
+  }
+
+  .italicTxt {
+    font-style: italic;
+    color: rgb(255, 255, 62);
+    text-decoration: none;
+  }
+
+  .italicTxt:hover {
+    text-decoration: underline;
+  }
