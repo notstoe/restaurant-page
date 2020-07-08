@@ -2,10 +2,14 @@ function loadPage(){
 
     const contentDiv = document.querySelector('#content');
     
+    // PAGE TITLE
+
     const pageTitle = document.createElement('h1');
         pageTitle.setAttribute('id','pageTitle');
         pageTitle.textContent = 'Ce Vole Er Guanciale';
         contentDiv.appendChild(pageTitle);
+
+    // NAVIGATION BAR
 
     const navBar = document.createElement('div');
         navBar.classList.add('containerNavBar');
