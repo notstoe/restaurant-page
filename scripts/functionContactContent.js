@@ -28,7 +28,7 @@ function contactContent(){
 
             const emailTitle = document.createElement('h1');
             emailTitle.textContent = 'And if the line is busy, don\'t worry!';
-            const txtBeforeEmail = document.createTextNode('You can reach us on: ');
+            const txtBeforeEmail = document.createTextNode('You can reach us at: ');
             const email = document.createElement('span');
                 email.setAttribute('id','email');
                 email.textContent = 'cevuoleerguanciale@fictional.com';
