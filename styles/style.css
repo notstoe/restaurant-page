@@ -13,18 +13,25 @@ body {
     font-family: 'Sail', cursive;
   }
 
-/* HEADER */
+/* NAVIGATION BAR */
 
   .containerNavBar {
     display: flex;
     justify-content: center;
-    margin-bottom: 2.7vw;
+    margin-bottom: 2.3vw;
   }
 
   .navBarElement {
     display: block;
     cursor: pointer;
     padding: 1.2vw 4vw;
+    margin: 0 0.3vw;
+  }
+
+  .navBarElement:hover {
+    border-bottom: 1px;
+    border-style: solid;
+    border-color: yellow;  
   }
 
   .activeTab {
@@ -36,17 +43,25 @@ body {
 /* HOME TAB CONTENT */
 
   .homePageContent {
-    font-size: 1.47vw;
+    font-size: 1.45vw;
     margin: 0 auto;
     margin-bottom: 2vw;
     width: 70%;
+    line-height: 1.65vw;
+    text-align: justify;
   }
 
   #carbonaraImg {
     display: block;
-    margin: 4.5vw auto;
-    margin-top: 1.5vw;
-    width: 400px;
+    margin: 0.9vw auto 0.3vw auto;
+    width: 480px;
+  }
+
+  .quoteChef {
+      width: 480px;
+      margin: 0 auto;
+      margin-bottom: 2vw;
+      font-size: 1.2vw;
   }
 
   .italicTxt {
@@ -58,3 +73,74 @@ body {
   .italicTxt:hover {
     text-decoration: underline;
   }
+
+  /* MENU TAB CONTENT */
+
+  .menuContent {
+        font-size: 1.23vw;
+        margin: 0 auto;
+        margin-bottom: 2vw;
+        width: 54%;
+        line-height: 1.65vw;
+        text-align: justify;
+        border: 1px solid rgb(255, 255, 62);
+        border-radius: 7px;
+        padding: 1.5vw 1.4vw 3vw 1.2vw;
+  }
+
+  .mainMenu {
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 3vw;
+  }
+
+  .listTitle {
+    font-style: italic;
+    font-size: 1.3vw;
+    color: rgb(255, 255, 62);  
+    margin-bottom: 2vw; 
+  }
+
+  .listElement {
+    margin: 1.4vw 0;
+  }
+
+/* CONTACT PAGE CONTENT */
+
+.contactContent {
+  
+  position: relative;
+  width: 42%;
+  margin: 3vw auto;
+  padding: 0.5vw 0.8vw 6vw 0.8vw;
+  border: 1px solid rgb(255, 255, 62);
+  border-radius: 7px;
+  font-size: 1.4vw;
+  line-height: 2vw;
+  text-align: center;
+}
+
+.phoneInfo, .emailInfo {
+  margin-bottom: 2.5vw;
+  margin-top: 1vw;
+}
+
+#email, #phone {
+  color: rgb(255, 255, 62);
+}
+
+.disclaimer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+#github {
+  color: white;
+}
+
+#github:hover {
+  color: rgb(255, 255, 62);
+  text-decoration: none;
+}
