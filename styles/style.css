@@ -144,3 +144,67 @@ body {
   color: rgb(255, 255, 62);
   text-decoration: none;
 }
+
+@media (max-width: 420px) {
+  
+  /* NAVIGATION BAR */
+  
+  .containerNavBar {
+    margin-bottom: 8vw;
+    margin-top: 5vw;
+  }
+  
+  /*  HOME PAGE */
+  .homePageContent {
+    font-size: 4vw;
+    line-height: 5.1vw;
+  }
+  
+  #carbonaraImg {
+    width: 50vw;
+    margin: 8vw auto 0vw auto;
+  }
+  
+  .quoteChef {
+    font-size: 2.9vw;
+    width: 50vw;
+    margin-bottom: 7vw;
+  }
+  
+/*  MENU CONTENT  */
+  
+  .listTitle {
+    font-size: 3vw;
+  }
+  
+  ul {
+    padding-right: 5vw;
+  }
+  
+  .menuContent {
+    font-size: 2.7vw;
+    text-align: left;
+    line-height: 5.1vw;
+    width: 80%;
+    padding-bottom: 2vw;
+    padding-right: 0;
+  }
+  
+/*  CONTACT CONTENT  */
+  
+  .contactContent {
+    font-size: 3.5vw;
+    width: 68%;
+    line-height: 5vw;
+    padding-bottom: 9.5vh;
+  }
+ 
+  .phoneInfo, .emailInfo {
+    margin-bottom: 5vw;
+    margin-top: 3vw;
+}
+  .disclaimer {
+    font-size: 3.2vw;
+  }
+  
+}
