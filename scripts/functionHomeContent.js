@@ -10,8 +10,8 @@ function homeContent(){
         const chefsName = document.createElement('a');
             chefsName.classList.add('italicTxt');
             chefsName.setAttribute('id','chefName');
-            chefsName.setAttribute('href','https://www.instagram.com/ego_wino/');
-            chefsName.textContent = 'Calogero Maria Maiera';
+            chefsName.setAttribute('href','');
+            chefsName.textContent = 'Gustavo Tonin';
     
         const restaurantDescrip = document.createElement('p');
             restaurantDescrip.setAttribute('id','descriptionRestaurant');
@@ -36,7 +36,7 @@ function homeContent(){
         const quoteChef = document.createElement('p');
             const quoteChefPart1 = document.createTextNode('No, no! Use only the yolk. -');
             const chefsNameQuote = document.createElement('span');
-                chefsNameQuote.textContent = 'M. Calogero (\"Rino\")';
+                chefsNameQuote.textContent = 'Tonin, G.';
                 chefsNameQuote.style.fontStyle = 'italic';
             quoteChef.classList.add('quoteChef');
 
